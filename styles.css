@@ -1,0 +1,40 @@
+/**{
+    border: 1px solid red ;
+}*/
+body{
+    background-color: #3e1843;
+    color:white;
+}
+.custom-color{
+    background-color:#fff ;
+}
+.dark-color{
+    color:#3e1843
+}
+.light-color{
+    color:white;
+}
+.special{
+    color:#ffd700;
+}
+.dark-bg-color{
+    background-color:#3e1843;
+}
+.light-bg-color{
+    background-color:white;
+}
+.mainimage{
+    background-image: linear-gradient(#3e184392,#3e184376),url('https://media.licdn.com/dms/image/v2/D5622AQEtO39vxUIBiA/feedshare-shrink_800/B56ZVNGgMPHQAk-/0/1740755307248?e=1752105600&v=beta&t=nLfzesVJC7ojFbGqmzWBL9-GEH8qS8b_-gp-_WaAWD0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    text-align: center;
+}
+.custom-container{
+    padding:2% 10%;
+    text-align: center;
+}
+.team-section{
+    text-align: center;
+}
