@@ -4,6 +4,8 @@
 body{
     background-color: #3e1843;
     color:white;
+    margin: 0%;
+    padding:0%;
 }
 .custom-color{
     background-color:#fff ;
@@ -15,7 +17,13 @@ body{
     color:white;
 }
 .special{
+    text-align: center;
     color:#ffd700;
+}
+.special-bg{
+    color:#ffd700;
+    background-color: #6a309357;
+    border: 2px #ffd700 solid;
 }
 .dark-bg-color{
     background-color:#3e1843;
@@ -38,3 +46,24 @@ body{
 .team-section{
     text-align: center;
 }
+.c-width{
+    width: 20rem; 
+}
+.card{
+    background-color:#6a309338;
+    border:2px #ffd700 solid;
+    border-radius: 10px;
+}
+#slider img{
+    width: auto;
+    height:40rem;
+}
+.card-img-top{
+    height:45%;
+    width:60%;
+    object-fit:cover;
+    align-self: center;
+    border-radius: 50%;
+    border:2px #ffd700 solid; 
+}
+
