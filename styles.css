@@ -2,8 +2,10 @@
     border: 1px solid red ;
 }*/
 body{
-    background-color: #3e1843;
-    color:white;
+    height:100%;
+    width:100%;
+     background-color:#3e1843;
+    color:#fff;
     margin: 0%;
     padding:0%;
 }
@@ -14,22 +16,42 @@ body{
     color:#3e1843
 }
 .light-color{
-    color:white;
+    color:#fff;
+}
+.highlight{
+    background:linear-gradient(to top,#ffd900e2,#ffd900db,#f4f2ea85,#ffd90081,#ffd90084,#ffd900db);
+    text-shadow: 
+    0 0px #ffd90037,
+    2px 0 #ffd90068;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
 }
 .special{
     text-align: center;
     color:#ffd700;
+    
+}
+.special-color{
+    background:linear-gradient(to top,#3e1843,#f4f2ea85,#3e1843);
+    text-shadow: 
+    0 0px #3e1843,
+    2px 0 #ffd90068;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
 }
 .special-bg{
-    color:#ffd700;
-    background-color: #6a309357;
+    background-color: #ffffff01;
     border: 2px #ffd700 solid;
 }
 .dark-bg-color{
     background-color:#3e1843;
+    color:#fff;
 }
 .light-bg-color{
-    background-color:white;
+    border:2px #ffd700 solid;
+    /* background-image:linear-gradient(to bottom left,#ffd9006e,#ffffff00,#ffffff00);  */
+    color:#fff;
+    border-radius: 10px;
 }
 .mainimage{
     background-image: linear-gradient(#3e184392,#3e184376),url('https://media.licdn.com/dms/image/v2/D5622AQEtO39vxUIBiA/feedshare-shrink_800/B56ZVNGgMPHQAk-/0/1740755307248?e=1752105600&v=beta&t=nLfzesVJC7ojFbGqmzWBL9-GEH8qS8b_-gp-_WaAWD0');
@@ -41,7 +63,6 @@ body{
 }
 .custom-container{
     padding:2% 10%;
-    text-align: center;
 }
 .team-section{
     text-align: center;
@@ -49,16 +70,19 @@ body{
 .c-width{
     width: 20rem; 
 }
-.card{
+.custom-card{
     background-color:#6a309338;
     border:2px #ffd700 solid;
     border-radius: 10px;
+}
+.c-height{
+ height: 28rem;
 }
 #slider img{
     width: auto;
     height:40rem;
 }
-.card-img-top{
+.custom-img-top{
     height:45%;
     width:60%;
     object-fit:cover;
@@ -66,4 +90,29 @@ body{
     border-radius: 50%;
     border:2px #ffd700 solid; 
 }
-
+.custom-text{
+    color: #111;
+}
+.c-border{
+padding: 30px 0px 0px 10px;
+border-radius:8px;
+background-image: linear-gradient(#ffd9006e,#ffd9005f);
+}
+.container-left-border{
+    border-left: 4px solid;
+    border-image: linear-gradient(to top,#ffd900e2,#ffd900db,#ffd90081,#ffd90084,#ffd900db) 1;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.magic-of-two ol{
+    list-style-type:upper-roman;
+}
+.magic-of-two ol li::marker{
+    color:#ffd900e2;
+    padding: 1px;
+}
+.event img{
+ width: 100%;
+ height: 80%;
+ object-fit: cover;
+}
